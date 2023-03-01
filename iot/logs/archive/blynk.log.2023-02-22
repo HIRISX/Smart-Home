@@ -1,0 +1,19 @@
+01:36:34.135 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:15:25.851 INFO - Using data dir '.\Blynk'
+14:15:26.248 INFO - Region : local. Host : 192.168.56.1.
+14:15:26.715 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+14:15:26.928 INFO - Reports : 0
+14:15:26.929 INFO - Didn't find custom user certificates.
+14:15:26.931 INFO - Didn't find Let's Encrypt certificates.
+14:15:26.931 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+14:15:26.931 WARN - ATTENTION. Server certificate paths (cert : 'D:\iot', key : 'D:\iot') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+14:15:27.987 INFO - HTTP API and WebSockets server listening at 8080 port.
+14:15:27.989 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+14:15:27.990 INFO - Mqtt hardware server listening at 8440 port.
+14:16:41.540 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:18:56.265 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:19:22.675 INFO - Creating new dashboard.
+14:19:46.741 ERROR- Error sending email auth token to user : admin@blynk.cc. Error: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 30000
+14:20:17.612 INFO - Creating new dashboard.
+14:20:30.746 ERROR- Error sending email auth token to user : admin@blynk.cc. Error: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 30000
+14:27:04.536 INFO - admin@blynk.cc Blynk-app (android-22732) joined.

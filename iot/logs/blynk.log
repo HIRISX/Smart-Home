@@ -1,0 +1,90 @@
+13:50:15.467 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+13:56:40.540 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:00:02.588 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:05:24.398 INFO - Using data dir '.\Blynk'
+14:05:24.438 INFO - Region : local. Host : 192.168.56.1.
+14:05:24.910 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+14:05:25.247 INFO - Reports : 0
+14:05:25.248 INFO - Didn't find custom user certificates.
+14:05:25.250 INFO - Didn't find Let's Encrypt certificates.
+14:05:25.250 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+14:05:25.250 WARN - ATTENTION. Server certificate paths (cert : 'D:\iot', key : 'D:\iot') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+14:05:26.771 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134) ~[blynk-server.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:551) ~[blynk-server.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1346) ~[blynk-server.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:503) ~[blynk-server.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:488) ~[blynk-server.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:985) ~[blynk-server.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:247) ~[blynk-server.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:344) ~[blynk-server.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[blynk-server.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510) ~[blynk-server.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518) ~[blynk-server.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050) ~[blynk-server.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[blynk-server.jar:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[blynk-server.jar:?]
+	at java.lang.Thread.run(Thread.java:1589) [?:?]
+14:15:31.838 INFO - Using data dir '.\Blynk'
+14:15:32.225 INFO - Region : local. Host : 192.168.56.1.
+14:15:32.685 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+14:15:32.809 INFO - Reports : 0
+14:15:32.810 INFO - Didn't find custom user certificates.
+14:15:32.812 INFO - Didn't find Let's Encrypt certificates.
+14:15:32.812 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+14:15:32.812 WARN - ATTENTION. Server certificate paths (cert : 'D:\iot', key : 'D:\iot') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+14:15:33.789 INFO - HTTP API and WebSockets server listening at 8080 port.
+14:15:33.790 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+14:15:33.792 INFO - Mqtt hardware server listening at 8440 port.
+14:15:43.584 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:51:57.834 INFO - Using data dir '.\blynk'
+14:51:57.871 INFO - Region : local. Host : 192.168.56.1.
+14:51:58.357 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+14:51:58.723 INFO - Reports : 0
+14:51:58.723 INFO - Didn't find custom user certificates.
+14:51:58.725 INFO - Didn't find Let's Encrypt certificates.
+14:51:58.725 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+14:51:58.725 WARN - ATTENTION. Server certificate paths (cert : 'D:\iot', key : 'D:\iot') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+14:51:59.816 INFO - HTTP API and WebSockets server listening at 8080 port.
+14:51:59.818 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+14:51:59.819 INFO - Mqtt hardware server listening at 8440 port.
+14:52:08.114 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:52:59.845 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+14:53:24.410 INFO - Creating new dashboard.
+14:53:29.376 ERROR- Error sending email auth token to user : admin@blynk.cc. Error: Exception reading response
+14:58:37.345 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+15:02:23.179 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+15:05:04.739 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+16:36:07.289 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+16:36:11.997 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+17:10:28.504 INFO - Using data dir '.\blynk'
+17:10:28.893 INFO - Region : local. Host : 192.168.56.1.
+17:10:29.337 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+17:10:29.436 INFO - Reports : 0
+17:10:29.437 INFO - Didn't find custom user certificates.
+17:10:29.438 INFO - Didn't find Let's Encrypt certificates.
+17:10:29.438 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+17:10:29.438 WARN - ATTENTION. Server certificate paths (cert : 'D:\iot', key : 'D:\iot') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+17:10:30.306 INFO - HTTP API and WebSockets server listening at 8080 port.
+17:10:30.307 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+17:10:30.308 INFO - Mqtt hardware server listening at 8440 port.
+17:23:53.492 INFO - Using data dir '.\Blynk'
+17:23:53.530 INFO - Region : local. Host : 192.168.56.1.
+17:23:53.953 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+17:23:54.234 INFO - Reports : 0
+17:23:54.234 INFO - Didn't find custom user certificates.
+17:23:54.236 INFO - Didn't find Let's Encrypt certificates.
+17:23:54.236 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+17:23:54.236 WARN - ATTENTION. Server certificate paths (cert : 'D:\iot', key : 'D:\iot') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+17:23:55.146 INFO - HTTP API and WebSockets server listening at 8080 port.
+17:23:55.147 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+17:23:55.148 INFO - Mqtt hardware server listening at 8440 port.
+17:24:00.069 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
+17:25:21.269 INFO - Creating new dashboard.
+17:25:27.078 ERROR- Error sending email auth token to user : admin@blynk.cc. Error: Exception reading response
+17:32:03.116 INFO - admin@blynk.cc Blynk-app (android-22732) joined.
